@@ -1,7 +1,0 @@
-<resources>
-    <color name="camip_primary">#2979FF</color>
-    <color name="camip_primary_dark">#0D47A1</color>
-    <color name="camip_accent">#00E5A0</color>
-    <color name="camip_background">#0E1117</color>
-    <color name="camip_surface">#161B22</color>
-</resources>
