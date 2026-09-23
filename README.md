@@ -14,7 +14,7 @@ CamIP encodes H.264 in hardware on the device and streams MPEG-TS over UDP to yo
 
 ### Android app
 
-| Main controls | Screen-share & settings | Streaming status |
+| Streaming status | Screen-share & settings | Connection information |
 |:-------------:|:----------------:|:-----------------------:|
 | ![App main screen](demo/screenshots/Demo-app1.png) | ![App streaming](demo/screenshots/Demo-app2.png) | ![App screen share](demo/screenshots/Demo-app3.png) |
 
