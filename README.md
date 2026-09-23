@@ -63,8 +63,8 @@ CamIP encodes H.264 in hardware on the device and streams MPEG-TS over UDP to yo
 
 ## Quick start
 
-1. Build & install the debug APK (see [Building](#building)).
-2. Open CamIP on the phone, grant camera (and optionally screen-capture) permission.
+1. **Download the APK** from the [Releases](https://github.com/proot411/CamIP/releases) page (recommended), *or* build it yourself (see [Building](#building)).
+2. Install on your phone and open CamIP. Grant camera (and optionally screen-capture) permission.
 3. Set the **Destination IP** to your PC’s LAN address and port (default `5000`).
 4. Tap **Start**.
 5. On the PC open the dashboard at `http://<phone-ip>:8080` **or** add a Media Source in OBS:
@@ -186,7 +186,9 @@ GET|POST /api/control?action=<action>&value=<value>
 
 ## Building
 
-**Prerequisites:** JDK 17, Android SDK 34.
+> **Prefer a pre-built APK?** Grab the latest release from the [Releases](https://github.com/proot411/CamIP/releases) page — no Android SDK required.
+
+**Prerequisites (if building from source):** JDK 17, Android SDK 34.
 
 Create or edit `local.properties`:
 
