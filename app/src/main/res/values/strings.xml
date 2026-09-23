@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CamIP</string>
     <string name="notification_channel_name">CamIP Streaming</string>
+    <string name="notification_title">CamIP is streaming</string>
 </resources>
